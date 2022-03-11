@@ -1,0 +1,35 @@
+Iniciar um servidor sem live-server e sem node
+
+# Remove live-server (if you have it)
+npm -g rm live-server
+
+# Install five-server
+npm -g i five-server
+
+# Update five-server (from time to time)
+npm -g i five-server@latest
+
+
+Linhas
+
+https://threejs.org/docs/index.html#manual/en/introduction/Drawing-lines
+
+
+Texto 
+
+https://threejs.org/docs/index.html#manual/en/introduction/Creating-text
+
+#info {
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    text-align: center;
+    z-index: 100;
+    display:block;
+}
+<div id="info">Description</div> 
+
+
+Modelos 3d
+
+https://threejs.org/docs/index.html#manual/en/introduction/Loading-3D-models
