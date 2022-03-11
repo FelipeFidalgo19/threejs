@@ -10,14 +10,11 @@ const scene = new THREE.Scene();
 
 //create a blue LineBasicMaterial
 const material = new THREE.LineBasicMaterial( { color: 0x0000ff } );
-var a = 10;
 const points = [];
-points.push( new THREE.Vector3( -10, -10, -50 ) );
-points.push( new THREE.Vector3( -10, 10, 0 ) );
-points.push( new THREE.Vector3( 0, 10, 0 ) );
+points.push( new THREE.Vector3( 20, 10, 0 ) );
 points.push( new THREE.Vector3( -10, 10, 0 ) );
 points.push( new THREE.Vector3( 0, 20, 0 ) );
-points.push( new THREE.Vector3( 10, 0, 0 ) );
+points.push( new THREE.Vector3( 20, 20, 0 ) );
 
 const geometry = new THREE.BufferGeometry().setFromPoints( points );
 

@@ -9,6 +9,7 @@ npm -g i five-server
 # Update five-server (from time to time)
 npm -g i five-server@latest
 
+five-server . -p 8000
 
 Linhas
 
