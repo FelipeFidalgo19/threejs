@@ -1,0 +1,25 @@
+body{
+    margin:0;
+}
+
+#info{
+    color: aqua;
+    position: fixed;
+    margin: 10px;
+}
+
+.btn{
+    padding: 10px;
+    border-radius: 8px;
+    border: 0px;
+    color: "#0fffff" !important;    
+    cursor: pointer;
+}
+
+.btn:hover{
+    opacity: 0.5;
+}
+
+.edit{
+    margin: 0;
+}
